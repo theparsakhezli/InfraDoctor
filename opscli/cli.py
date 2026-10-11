@@ -78,7 +78,7 @@ def main() -> int:
         "disk",
         help="check disk usage"
     )
-    disk.add_arguement(
+    disk.add_argument(
         "path",
         nargs="?",
         type=Path,
